@@ -56,13 +56,13 @@ function pokedex() {
         }
     }).catch(err => {
 
-        pokeName.innerHTML = "Este Pokémon ¡NO EXISTE!";
+        pokeName.innerHTML = "El Pokémon buscado<br />¡NO EXISTE!";
         pokeName.style.color = "red";
         pokeName.style.fontSize = "small"
         pokeStats.innerHTML = "";
         pokeMove.innerHTML = "";
         pokeType.innerHTML = ""
-        pokeImg = document.getElementById("pokeImg");
+        pokeImg = document.getElementById("./img/pokeball.png");
         final[0].style.display = "flex";
         console.error(err)
     })
