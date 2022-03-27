@@ -62,7 +62,7 @@ function pokedex() {
         pokeStats.innerHTML = "";
         pokeMove.innerHTML = "";
         pokeType.innerHTML = ""
-        let pokeImg = document.getElementById("pokeImg");
+        pokeImg = document.getElementById("pokeImg");
         final[0].style.display = "flex";
         console.error(err)
     })
